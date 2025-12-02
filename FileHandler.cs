@@ -21,6 +21,7 @@ public class FileHandler
         {
             Console.WriteLine($"An error occurred while reading the facts file: {ex.Message}");
             return null;
+           
         }
         
     }
